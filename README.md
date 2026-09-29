@@ -167,4 +167,4 @@ Only point this tool at servers you own or are authorised to test. Even at the d
 
 ## License
 
-MIT (or your license of choice).
+MIT
