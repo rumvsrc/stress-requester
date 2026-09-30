@@ -32,7 +32,7 @@ CONFIG: Dict[str, Any] = {
     # Options: "tcp" | "udp" | "rest" | "all"
     "MODE": "all",
     # Target server hostname or IP address ("127.0.0.1" if running locally on the server)
-    "TARGET_HOST": "yourportaldemo.kz",
+    "TARGET_HOST": "yourportaldemo.com",
 
     # --- 2. Protocol Ports & Paths ---
     "TCP_PORT": 9001,
@@ -61,7 +61,7 @@ CONFIG: Dict[str, Any] = {
     "CLICKHOUSE_DB": "yourportal_telemetry",
     "CLICKHOUSE_TABLE": "telemetry",
     # SSH user@host used to query ClickHouse when running remotely (set to None if running directly on the server)
-    "CLICKHOUSE_SSH_HOST": "root@yourportaldemo.kz",
+    "CLICKHOUSE_SSH_HOST": "root@yourportaldemo.com",
 
     # --- 6. Diagnostics & Logging ---
     "VERBOSE": False,
